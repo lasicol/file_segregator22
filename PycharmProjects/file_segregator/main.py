@@ -9,6 +9,8 @@ parser.add_argument('folder_path', type=str, help='You have to pass the path to 
 args = parser.parse_args()
 
 
+
+
 class Logger:
     def __init__(self, name='log.txt'):
         self.name = name
